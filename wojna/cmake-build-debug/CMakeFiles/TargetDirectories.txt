@@ -1,0 +1,3 @@
+C:/Users/Kaneczi/CLionProjects/wojna/cmake-build-debug/CMakeFiles/wojna.dir
+C:/Users/Kaneczi/CLionProjects/wojna/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kaneczi/CLionProjects/wojna/cmake-build-debug/CMakeFiles/rebuild_cache.dir

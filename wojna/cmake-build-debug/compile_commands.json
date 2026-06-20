@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Kaneczi/CLionProjects/wojna/cmake-build-debug",
+  "command": "C:\\Users\\Kaneczi\\Desktop\\NOWYFO~1\\CLION2~1.3\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\wojna.dir\\main.cpp.obj -c C:\\Users\\Kaneczi\\CLionProjects\\wojna\\main.cpp",
+  "file": "C:/Users/Kaneczi/CLionProjects/wojna/main.cpp",
+  "output": "C:/Users/Kaneczi/CLionProjects/wojna/cmake-build-debug/CMakeFiles/wojna.dir/main.cpp.obj"
+}
+]
