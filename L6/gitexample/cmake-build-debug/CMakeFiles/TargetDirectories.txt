@@ -1,0 +1,3 @@
+D:/kod/L6/gitexample/cmake-build-debug/CMakeFiles/gitexample.dir
+D:/kod/L6/gitexample/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/kod/L6/gitexample/cmake-build-debug/CMakeFiles/rebuild_cache.dir
