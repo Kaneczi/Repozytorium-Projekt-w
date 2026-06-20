@@ -1,0 +1,71 @@
+#include <iostream>
+#define LENGTH 5
+int main() {
+    int length=0;
+    int operation=0;
+    int currentpos=0;
+    int start=0;
+    int end=LENGTH-1;
+    int value=0;
+    int queue[LENGTH];
+do {
+    operation=0;
+    printf("\nQUEUE - implementacja\n");
+    printf(" 1 - wstaw liczbe do kolejki\n");
+    printf(" 2 - usun i odczytaj liczbe z kolejki\n");
+    printf(" 3 - odczytaj liczbe z kolejki\n");
+    printf(" 4 - sprawdz, czy kolejka jest pusta\n");
+    printf(" 5 - sprawdz, czy kolejka jest pelna\n");
+    printf(" 6 - wypisz cala kolejke\n");
+    printf(" 7 - zakoncz program\n");
+    scanf("%d", &operation);
+switch(operation)
+{
+    case 1:
+        if(currentpos == end)
+        {
+            printf("kolejka jest pelna!\n");
+
+        }
+        else{
+            printf("podaj liczbe:\n");
+            scanf("%d", &value);
+            printf("podaj liczbe:\n");
+            queue[currentpos] = value;
+            currentpos++;
+
+        }
+        break;
+    case 2:
+        if(currentpos == start)
+        {
+            printf("kolejka jest pusta!\n");
+
+        }
+        else{
+            printf("liczba %d wyszla z kolejki.\n", queue[start]);
+            start++;
+            end++;
+        }
+
+        break;
+    case 3:
+        printf("case 3");
+        break;
+    case 4:
+        printf("case 4");
+        break;
+    case 5:
+        printf("case 5");
+        break;
+    case 6:
+  for(int i=0; i<LENGTH; i++){
+      printf("%d, ",queue[i]);
+  }
+        break;
+    case 7:
+        return 0;
+}
+}while(1);
+    return 0;
+}
